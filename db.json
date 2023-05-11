@@ -242,9 +242,19 @@
                 "L Lawliet",
                 "Ryuk"
             ],
-            "images": ["Assets/Death Note/Light1.webp","Assets/Death Note/Amane1.jpg","Assets/Death Note/Mello.webp",
-        "Assets/Death Note/L1.jpg","Assets/Death Note/Light2.jpg","Assets/Death Note/Light3.jpg","Assets/Death Note/Mikami.webp",
-    "Assets/Death Note/L2.webp","Assets/Death Note/Amane2.jpeg","Assets/Death Note/L3.jpg","Assets/Death Note/Ryuk.webp"],
+            "images": [
+                "Assets/Death Note/Light1.webp",
+                "Assets/Death Note/Amane1.jpg",
+                "Assets/Death Note/Mello.webp",
+                "Assets/Death Note/L1.jpg",
+                "Assets/Death Note/Light2.jpg",
+                "Assets/Death Note/Light3.jpg",
+                "Assets/Death Note/Mikami.webp",
+                "Assets/Death Note/L2.webp",
+                "Assets/Death Note/Amane2.jpeg",
+                "Assets/Death Note/L3.jpg",
+                "Assets/Death Note/Ryuk.webp"
+            ],
             "quotes": [
                 "I am the God placed here to save the weak and create a perfect world.",
                 "Unless someone makes the first move, nothing will happen.",
