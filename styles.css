@@ -34,7 +34,7 @@
     
 }
 .menu-bar ul li{
-    width: 407px;
+    width: 130px;
     margin: 15px;
     padding: 15px;
 }
@@ -46,6 +46,39 @@
     background: gray;
     border-radius: 3px;
 }
+
+.quotes-from-anime{
+    display: none;
+}
+.menu-bar ul li:hover .quotes-from-anime
+{
+    display: block;
+    position: absolute;
+    background: green;
+    margin-top: 15px;
+    margin-left: -15px;
+
+}
+.menu-bar ul li:hover .quotes-from-anime ul{
+    display: block;
+    width: 250px;
+    margin: 10px;
+}
+.menu-bar ul li:hover .quotes-from-anime ul li{
+    width: 130px;
+    padding: 10px;
+    border-bottom: 1px dotted black;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .quotes-from-anime ul li:last-of-type{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .quotes-from-anime ul li a:hover{
+    color: purple;
+}
+
 
 /* Style the radio buttons as toggle buttons */
 /* .anime-toggle-group label {

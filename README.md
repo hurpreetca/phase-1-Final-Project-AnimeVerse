@@ -4,5 +4,10 @@ IDEA
         2. A random quotes from a particular anime by any of its character onto a TEXT BOX.
         3. A random quotes from a particular character onto a TEXT BOX.
 
-PLANNING
+## Setup
+
+- Run `json-server --watch db.json` to get the backend started
+- Open the `index.html` file on your browser
+- Write your code in the `index.js` file
+
     
