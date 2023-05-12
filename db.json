@@ -270,5 +270,89 @@
             ]
         }
     ],
-    "ByCharacters": []
+    "ByCharacters": [
+        {
+            "id": 1,
+            "character": "Itachi Uchiha",
+            "image": "Assets/Naruto/Itachi1.jpg",
+            "quotes": [
+            "I actually don't think something like perfection exists. That is I think why we are born able to absorb things... and by comparing ourselves with something else we can finally head in a good direction.",
+            "Those who forgive themselves, and are able to accept their true nature... They are the strong ones!",
+            "Even the strongest of opponents always has a weakness.",
+            "Kabuto: Isn't acknowledging what you can't do the same as giving up?\n\nItachi: No, it means to forgive yourself for what you aren't able to do. Your comrades are there to make up for what you cannot do and to prevent you from ignoring things that you actually might have been able to do.",
+            "The ones who aren't able to acknowledge their own selves are bound to fail.",
+            "People's lives don't end when they die. It ends when they lose faith.",
+            "Knowledge and awareness are vague, and perhaps better called illusions. Everyone lives within their own subjective interpretation.",
+            "He who forgives and acknowledges himself... that is what it truly means to be strong!",
+            "In this moment, I am euphoric. Not because of any phony Shinobi's blessing. But because, I'm enlightened by my intelligence."
+        ]
+        },
+        {
+            "id": 2,
+            "character": "Tanjiro Kamado",
+            "image": "Assets/Demon Slayer/Tanjiro1.png",
+            "quotes": [
+                "I swear your big brother will save you no matter what!",
+                "Use your head not just your spirit. Think think think.",
+                "No! Because once I've mastered it myself, I can teach them, too!",
+                "The bond between Nezuko and me, can't be severed by anyone!",
+                "No matter how many people, you may lose, you have no choice but to go on living. No matter how devastating, the blows maybe.",
+                "Don't wimp out! Save him! Save him! Save him! Im not powerless anymore! Move!!",
+                "Breathe all the way into my fingertips! Meditation boosts concentration.",
+                "Work at it. All I can do is work hard! That's the story of my life!",
+                "Anyone who hurts my sister… Hashira or not, I won't let you get away with it.",
+                "Killing humans is… unforgivable."
+            ]
+        },
+        {
+            "id": 3,
+            "character": "Yuji Itadori",
+            "image": "Assets/Jujutsu Kaisen/Itadori.webp",
+            "quotes": [
+                "I don't want to regret anything because of the way I lived.",
+                "Got it. I won't let Sakuna out.",
+                "I'm too late, she's in front of me, but yet… Can I do it? I must try.",
+                "Grandpa died with his head held high, This death… is not acceptable.",
+                "You really are dependable, Fushiguro.",
+                "I don't know how I'll feel when I'm dead, But I don't want to regret the way I lived.",
+                "I'm into girls like Jennifer Lawrence. Nice to meet you!"
+            ]
+
+        },
+        {
+            "id": 4,
+            "character": "Eren Jaeger",
+            "image": "Assets/Attack on Titans/Eren8.jpg",
+            "quotes": [
+                "What is the point if those with the means and power do not fight?",
+                "I don't have time to worry if it's right or wrong, you can't hope for a horror story with a happy ending!",
+                "Nothing can suppress a human's curiosity.",
+                "I want to see and understand the world outside. I don't want to die inside these walls without knowing what's out there!",
+                "If you win, you live. If you lose, you die. If you don't fight, you can't win!",
+                "No matter how messed up things get, you can always figure out the best solution.",
+                "On that day, mankind received a grim reminder. We lived in fear of the titans, and were disgraced to live in these cages we called walls.",
+                "[referring to a group of thugs] I disposed of some dangerous beasts. Mere animals that just happened to resemble humans.",
+                "If you think reality is just living comfortably and following your own whims, can you seriously dare to call yourself a soldier?",
+                "What is the point if those with the means and power do not fight?"
+            ]
+
+        },
+        {
+            "id": 5,
+            "character": "Madara Uchiha",
+            "image": "Assets/Naruto/Madara2.png",
+            "quotes": ["Love is not necessary, power is the only true necessity.",
+            "People cannot show each other their true feelings. Fear, suspicion, and resentment never subside.",
+            "The longer you live... The more you realize that reality is just made of pain, suffering and emptiness...",
+            "Power is not will, it is the phenomenon of physically making things happen.",
+            "Talking about peace whilst spilling blood, it's something that only humans can do.",
+            "It seems that you still want to dance but... You will not be able to make steps anymore.",
+            "I'd be lying if I said things are going according to my plan... but beggars can't be choosers, right?",
+            "....Would you consider dying together \"Teamwork\" as well?",
+            "[Last words to Hashirama] As comrades, huh... well... if that's how... we... will.... *smiles*",
+            "Wake up to reality! Nothing ever goes as planned in this world. The longer you live, the more you realize that in this reality only pain, suffering and futility exist."
+        ]
+
+        }
+    ]
 }
