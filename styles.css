@@ -78,6 +78,18 @@
     color: purple;
 }
 
+.display-div {
+
+    background-size: cover;
+    background-position: center;
+  }
+.display-div img{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    
+}
+
 
 /* Style the radio buttons as toggle buttons */
 /* .anime-toggle-group label {
