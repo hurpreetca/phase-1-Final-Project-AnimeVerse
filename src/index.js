@@ -30,16 +30,53 @@ function renderAnime(animes) {
   animes.forEach((anime) => {
 
     const li = document.createElement("li");
+    li.addEventListener("click", (e)=>{
+     fetch("http://localhost:3000/animes").then((response)=> response.json()).then((animes)=> {
+      const animeData= animes.find((anime)=>{
+         if(anime.anime=== e.target.textContent)
+         {
+          //Generate a Random Number
+         /*  const animeName = anime;
+          const animeObj = animes.find(anime => anime.anime === animeName);
+          const charactersArr = animeObj.characters;
+          const charactersLength = charactersArr.length;
+
+          console.log(charactersLength); // Output: 18
+          const randomIndex = Math.floor(Math.random() * animes.charactersLength);
+          console.log(randomIndex)
+ */
+  //p.textContent= anime */
+
+          const displayDiv= document.querySelector(".display-div")
+          const p= document.createElement('p');
+         // p.textContent= `anime.quotes[randomNumber()]` + `-` + `anime.characters[randomNumber()]`
+
+         }
+        
+
+      })
+      
+      
+
+      //p.textContent= animes.
+     } )
+     
+    
+      
+
+
+      
+    })
+    li.className= anime.anime
     ul.appendChild(li);
     const a = document.createElement("a");
     a.href = "#";
     a.textContent = anime.anime;
     li.appendChild(a);
+
   });
 }
 
-  
-  const animeNavigation= document.querySelector(".anime-navigation > li").addEventListener("click", console.log("hello"))
 
 /* function quoteFromAnime(animes){
   fetch("http://localhost:3000/animes").then(response=> response.json()).then(anime=> {
@@ -55,16 +92,4 @@ function renderAnime(animes) {
   }
  */
   /* const animeQuoteDisplay= document.querySelector(' div.main-div')
-  const p= document.createElement('p')
-
-  //get random index value
-const animeName = anime;
-const animeObj = animes.find(anime => anime.anime === animeName);
-const charactersArr = animeObj.characters;
-const charactersLength = charactersArr.length;
-
-console.log(charactersLength); // Output: 18
-  const randomIndex = Math.floor(Math.random() * animes.charactersLength);
-  console.log(randomIndex)
-
-  //p.textContent= anime */
+  const p= document.createElement('p')*/
