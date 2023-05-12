@@ -270,22 +270,22 @@
             ]
         }
     ],
-    "ByCharacters": [
+    "characters": [
         {
             "id": 1,
             "character": "Itachi Uchiha",
             "image": "Assets/Naruto/Itachi1.jpg",
             "quotes": [
-            "I actually don't think something like perfection exists. That is I think why we are born able to absorb things... and by comparing ourselves with something else we can finally head in a good direction.",
-            "Those who forgive themselves, and are able to accept their true nature... They are the strong ones!",
-            "Even the strongest of opponents always has a weakness.",
-            "Kabuto: Isn't acknowledging what you can't do the same as giving up?\n\nItachi: No, it means to forgive yourself for what you aren't able to do. Your comrades are there to make up for what you cannot do and to prevent you from ignoring things that you actually might have been able to do.",
-            "The ones who aren't able to acknowledge their own selves are bound to fail.",
-            "People's lives don't end when they die. It ends when they lose faith.",
-            "Knowledge and awareness are vague, and perhaps better called illusions. Everyone lives within their own subjective interpretation.",
-            "He who forgives and acknowledges himself... that is what it truly means to be strong!",
-            "In this moment, I am euphoric. Not because of any phony Shinobi's blessing. But because, I'm enlightened by my intelligence."
-        ]
+                "I actually don't think something like perfection exists. That is I think why we are born able to absorb things... and by comparing ourselves with something else we can finally head in a good direction.",
+                "Those who forgive themselves, and are able to accept their true nature... They are the strong ones!",
+                "Even the strongest of opponents always has a weakness.",
+                "Kabuto: Isn't acknowledging what you can't do the same as giving up?\n\nItachi: No, it means to forgive yourself for what you aren't able to do. Your comrades are there to make up for what you cannot do and to prevent you from ignoring things that you actually might have been able to do.",
+                "The ones who aren't able to acknowledge their own selves are bound to fail.",
+                "People's lives don't end when they die. It ends when they lose faith.",
+                "Knowledge and awareness are vague, and perhaps better called illusions. Everyone lives within their own subjective interpretation.",
+                "He who forgives and acknowledges himself... that is what it truly means to be strong!",
+                "In this moment, I am euphoric. Not because of any phony Shinobi's blessing. But because, I'm enlightened by my intelligence."
+            ]
         },
         {
             "id": 2,
@@ -317,7 +317,6 @@
                 "I don't know how I'll feel when I'm dead, But I don't want to regret the way I lived.",
                 "I'm into girls like Jennifer Lawrence. Nice to meet you!"
             ]
-
         },
         {
             "id": 4,
@@ -335,24 +334,23 @@
                 "If you think reality is just living comfortably and following your own whims, can you seriously dare to call yourself a soldier?",
                 "What is the point if those with the means and power do not fight?"
             ]
-
         },
         {
             "id": 5,
             "character": "Madara Uchiha",
             "image": "Assets/Naruto/Madara2.png",
-            "quotes": ["Love is not necessary, power is the only true necessity.",
-            "People cannot show each other their true feelings. Fear, suspicion, and resentment never subside.",
-            "The longer you live... The more you realize that reality is just made of pain, suffering and emptiness...",
-            "Power is not will, it is the phenomenon of physically making things happen.",
-            "Talking about peace whilst spilling blood, it's something that only humans can do.",
-            "It seems that you still want to dance but... You will not be able to make steps anymore.",
-            "I'd be lying if I said things are going according to my plan... but beggars can't be choosers, right?",
-            "....Would you consider dying together \"Teamwork\" as well?",
-            "[Last words to Hashirama] As comrades, huh... well... if that's how... we... will.... *smiles*",
-            "Wake up to reality! Nothing ever goes as planned in this world. The longer you live, the more you realize that in this reality only pain, suffering and futility exist."
-        ]
-
+            "quotes": [
+                "Love is not necessary, power is the only true necessity.",
+                "People cannot show each other their true feelings. Fear, suspicion, and resentment never subside.",
+                "The longer you live... The more you realize that reality is just made of pain, suffering and emptiness...",
+                "Power is not will, it is the phenomenon of physically making things happen.",
+                "Talking about peace whilst spilling blood, it's something that only humans can do.",
+                "It seems that you still want to dance but... You will not be able to make steps anymore.",
+                "I'd be lying if I said things are going according to my plan... but beggars can't be choosers, right?",
+                "....Would you consider dying together \"Teamwork\" as well?",
+                "[Last words to Hashirama] As comrades, huh... well... if that's how... we... will.... *smiles*",
+                "Wake up to reality! Nothing ever goes as planned in this world. The longer you live, the more you realize that in this reality only pain, suffering and futility exist."
+            ]
         }
     ]
 }

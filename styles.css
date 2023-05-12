@@ -47,10 +47,10 @@
     border-radius: 3px;
 }
 
-.quotes-from-anime{
+.quotes-from-anime, .quotes-from-character{
     display: none;
 }
-.menu-bar ul li:hover .quotes-from-anime
+.menu-bar ul li:hover .quotes-from-anime, .menu-bar ul li:hover .quotes-from-character
 {
     display: block;
     position: absolute;
@@ -59,12 +59,12 @@
     margin-left: -15px;
 
 }
-.menu-bar ul li:hover .quotes-from-anime ul{
+.menu-bar ul li:hover .quotes-from-anime ul,.menu-bar ul li:hover .quotes-from-character ul{
     display: block;
     width: 250px;
     margin: 10px;
 }
-.menu-bar ul li:hover .quotes-from-anime ul li{
+.menu-bar ul li:hover .quotes-from-anime ul li, .menu-bar ul li:hover .quotes-from-character ul li{
     width: 130px;
     padding: 10px;
     border-bottom: 1px dotted black;
@@ -73,7 +73,7 @@
     text-align: left;
 }
 
-.menu-bar ul li:hover .quotes-from-anime ul li a:hover
+.menu-bar ul li:hover .quotes-from-anime ul li a:hover, .menu-bar ul li:hover .quotes-from-character ul li a:hover
 {
     color: purple;
 }
