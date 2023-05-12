@@ -48,7 +48,7 @@ function renderAnime(animes) {
 
           //Select display-div using Navigation Bar "Anime"
           const displayDiv= document.querySelector(".display-div")
-          
+          displayDiv.replaceChildren()  
           const p= document.createElement('p')
           p.textContent = anime.quotes[randomIndex]
           p.id= "display-quote"
