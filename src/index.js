@@ -36,16 +36,17 @@ function renderAnime(animes) {
          if(anime.anime=== e.target.textContent)
          {
           //Generate a Random Number
-         /*  const animeName = anime;
+          const animeName = anime.anime;
+          //console.log(animeName)
           const animeObj = animes.find(anime => anime.anime === animeName);
           const charactersArr = animeObj.characters;
           const charactersLength = charactersArr.length;
 
-          console.log(charactersLength); // Output: 18
-          const randomIndex = Math.floor(Math.random() * animes.charactersLength);
+          //console.log(charactersLength); 
+          const randomIndex = Math.floor(Math.random() * charactersLength);
           console.log(randomIndex)
- */
-  //p.textContent= anime */
+
+          //p.textContent= anime */
 
           const displayDiv= document.querySelector(".display-div")
           const p= document.createElement('p');
