@@ -72,10 +72,9 @@
     border-radius: 0;
     text-align: left;
 }
-.menu-bar ul li:hover .quotes-from-anime ul li:last-of-type{
-    border-bottom: none;
-}
-.menu-bar ul li:hover .quotes-from-anime ul li a:hover{
+
+.menu-bar ul li:hover .quotes-from-anime ul li a:hover
+{
     color: purple;
 }
 
