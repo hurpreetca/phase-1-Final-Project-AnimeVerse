@@ -44,29 +44,32 @@ function renderAnime(animes) {
 
           //console.log(charactersLength); 
           const randomIndex = Math.floor(Math.random() * charactersLength);
-          console.log(randomIndex)
+          //console.log(randomIndex)
 
-          //p.textContent= anime */
-
+          //Select display-div using Navigation Bar "Anime"
           const displayDiv= document.querySelector(".display-div")
-          const p= document.createElement('p');
-         // p.textContent= `anime.quotes[randomNumber()]` + `-` + `anime.characters[randomNumber()]`
+          
+          const p= document.createElement('p')
+          p.textContent = anime.quotes[randomIndex]
+          p.id= "display-quote"
+          p.class= "display-p"
+          displayDiv.appendChild(p)
+          const img= document.createElement('img')
+          img.src= anime.images[randomIndex]
+          img.id="display-image"
+          img.class="display-img"
+          img.addEventListener("mouseenter", (e)=>{
+            console.log(e)
+         })
+         img.addEventListener("mouseleave", (e)=>{
+          console.log(e)
+         })
+          displayDiv.appendChild(img)
+          
 
          }
-        
-
       })
-      
-      
-
-      //p.textContent= animes.
-     } )
-     
-    
-      
-
-
-      
+     } ) 
     })
     li.className= anime.anime
     ul.appendChild(li);
