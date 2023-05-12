@@ -25,7 +25,7 @@ fetch("http://localhost:3000/animes")
 
 function renderAnime(animes) {
   const ul = document.createElement("ul");
-  ul.id= "anime-navigation"
+  ul.className= "anime-navigation"
   animeQuote.appendChild(ul)
   animes.forEach((anime) => {
 
@@ -38,9 +38,8 @@ function renderAnime(animes) {
   });
 }
 
- const animeSelectMenu= document.getElementById("#anime-navigation")
-    ;
-  animeSelectMenu.addEventListener("click", console.log("hello"))
+  
+  const animeNavigation= document.querySelector(".anime-navigation > li").addEventListener("click", console.log("hello"))
 
 /* function quoteFromAnime(animes){
   fetch("http://localhost:3000/animes").then(response=> response.json()).then(anime=> {
@@ -50,8 +49,22 @@ function renderAnime(animes) {
     const charactersLength = charactersArr.length;
 
   })
-
+  
 
  
   }
  */
+  /* const animeQuoteDisplay= document.querySelector(' div.main-div')
+  const p= document.createElement('p')
+
+  //get random index value
+const animeName = anime;
+const animeObj = animes.find(anime => anime.anime === animeName);
+const charactersArr = animeObj.characters;
+const charactersLength = charactersArr.length;
+
+console.log(charactersLength); // Output: 18
+  const randomIndex = Math.floor(Math.random() * animes.charactersLength);
+  console.log(randomIndex)
+
+  //p.textContent= anime */
