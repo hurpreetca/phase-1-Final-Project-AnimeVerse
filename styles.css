@@ -91,6 +91,7 @@ body {
 }
 
 .display-div {
+  height: 500px;
   background-size: cover;
   background-position: center;
   display: -webkit-box;
@@ -115,6 +116,14 @@ body {
   width: 250px;
   height: 300px;
   border: 1px solid black;
+}
+.foot-style{
+  color: white;
+  background-color: rgba(80, 87, 107, 0.4);
+  border-radius: 15px;
+  text-align: center;
+  margin-top: 32px;
+  padding: 8px;
 }
 /* .display-div img:hover{
   transform: scale(1.2);
