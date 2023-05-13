@@ -38,7 +38,7 @@ function renderAnime(animes) {
               const displayDiv = document.querySelector(".display-div");
               displayDiv.replaceChildren();
               const p = document.createElement("p");
-              p.textContent = anime.quotes[randomIndex]+ " - "+anime.characters[randomIndex];
+              p.textContent = anime.quotes[randomIndex]+ "  -  "+anime.characters[randomIndex];
               p.id = "display-quote";
               p.class = "display-p";
               displayDiv.appendChild(p);
@@ -102,7 +102,7 @@ function renderCharacter(characters) {
               const displayDiv = document.querySelector(".display-div");
               displayDiv.replaceChildren();
               const p = document.createElement("p");
-              p.textContent = character.quotes[randomIndex];
+              p.textContent = character.quotes[randomIndex]+"  -  "+character.character;
               p.id = "display-quote";
               p.class = "display-p";
               displayDiv.appendChild(p);
