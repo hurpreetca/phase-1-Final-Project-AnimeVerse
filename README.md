@@ -12,12 +12,8 @@ Anime Verse
 
 Before opening the HTML file, clone this repository and then install json server using follwing command:
 
-    - Run `json-server --watch db.json` to get the backend started
-    
-After starting the database, Open the `index.html` file on your browser
-
-
-###Features
-
+- Run `json-server --watch db.json` to get the backend started
+- Open the `index.html` file on your browser
+- Write your code in the `index.js` file
 
     

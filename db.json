@@ -82,18 +82,18 @@
                 "Inosuke Hashibira"
             ],
             "images": [
-                "Assets/Demon Slayer/Rengoku.jpg",
-                "Assets/Demon Slayer/Sabito1.jpg",
-                "Assets/Demon Slayer/Sabito2.webp",
-                "Assets/Demon Slayer/Giyu1.webp",
-                "Assets/Demon Slayer/Giyu2.webp",
-                "Assets/Demon Slayer/Tanjiro1.png",
-                "Assets/Demon Slayer/Tanjiro2.jpg",
-                "Assets/Demon Slayer/Tanjiro3.jpeg",
-                "Assets/Demon Slayer/Tanjiro4.jpg",
-                "Assets/Demon Slayer/Zenitsu.jpg",
-                "Assets/Demon Slayer/Muzan.webp",
-                "Assets/Demon Slayer/Inosuke.jpg.webp"
+                "Assets/DemonSlayer/Sabito1.jpg",
+                "Assets/DemonSlayer/Sabito2.webp",
+                "Assets/DemonSlayer/Giyu1.webp",
+                "Assets/DemonSlayer/Giyu2.webp",
+                "Assets/DemonSlayer/Rengoku.jpg",
+                "Assets/DemonSlayer/Tanjiro1.png",
+                "Assets/DemonSlayer/Tanjiro2.jpg",
+                "Assets/DemonSlayer/Tanjiro3.jpeg",
+                "Assets/DemonSlayer/Tanjiro4.jpg",
+                "Assets/DemonSlayer/Zenitsu.jpg",
+                "Assets/DemonSlayer/Muzan.webp",
+                "Assets/DemonSlayer/Inosuke.jpg.webp"
             ],
             "quotes": [
                 "Set your heart ablaze, go beyond your limits!",
@@ -128,18 +128,18 @@
                 "Nobara Kugisaki"
             ],
             "images": [
-                "Assets/Jujutsu Kaisen/wasuke.webp",
-                "Assets/Jujutsu Kaisen/wasuke.webp",
-                "Assets/Jujutsu Kaisen/sukuna1.webp",
-                "Assets/Jujutsu Kaisen/sukuna2.jpg",
-                "Assets/Jujutsu Kaisen/sukuna3.jpg",
-                "Assets/Jujutsu Kaisen/sukuna4.png",
-                "Assets/Jujutsu Kaisen/Itadori.webp",
-                "Assets/Jujutsu Kaisen/gojo1.webp",
-                "Assets/Jujutsu Kaisen/gojo2.png",
-                "Assets/Jujutsu Kaisen/todo.jpg",
-                "Assets/Jujutsu Kaisen/megumi.webp",
-                "Assets/Jujutsu Kaisen/kugisaki.webp"
+                "Assets/JujutsKaisen/wasuke.webp",
+                "Assets/JujutsKaisen/wasuke.webp",
+                "Assets/JujutsKaisen/sukuna1.webp",
+                "Assets/JujutsKaisen/sukuna2.jpg",
+                "Assets/JujutsKaisen/sukuna3.jpg",
+                "Assets/JujutsKaisen/sukuna4.png",
+                "Assets/JujutsKaisen/Itadori.webp",
+                "Assets/JujutsKaisen/gojo1.webp",
+                "Assets/JujutsKaisen/gojo2.png",
+                "Assets/JujutsKaisen/todo.jpg",
+                "Assets/JujutsKaisen/megumi.webp",
+                "Assets/JujutsKaisen/kugisaki.webp"
             ],
             "quotes": [
                 "It doesn't have to be everyone, just help the people around you, as much as you can. Wasuke Itadori",
@@ -182,26 +182,26 @@
                 "Erwin Smith"
             ],
             "images": [
-                "Assets/Attack on Titans/Eren1.jpg",
-                "Assets/Attack on Titans/Eren2.jpg",
-                "Assets/Attack on Titans/Eren3.jpg",
-                "Assets/Attack on Titans/Eren4.webp",
-                "Assets/Attack on Titans/Eren5.jpg",
-                "Assets/Attack on Titans/Eren6.jpg",
-                "Assets/Attack on Titans/Eren7.jpg.webp",
-                "Assets/Attack on Titans/Eren8.jpg",
-                "Assets/Attack on Titans/Eren9.jpeg",
-                "Assets/Attack on Titans/Levi1.jpeg",
-                "Assets/Attack on Titans/Levi2.jpg",
-                "Assets/Attack on Titans/Levi3.png",
-                "Assets/Attack on Titans/Erwin1.webp",
-                "Assets/Attack on Titans/Erwin2.webp",
-                "Assets/Attack on Titans/Reiner.png.webp",
-                "Assets/Attack on Titans/Mikasa.jpeg",
-                "Assets/Attack on Titans/Armin.webp",
-                "Assets/Attack on Titans/Hange.png",
-                "Assets/Attack on Titans/Erwin3.jpg",
-                "Assets/Attack on Titans/Erwin4.jpg"
+                "Assets/AttackonTitans/Eren1.jpg",
+                "Assets/AttackonTitans/Eren2.jpg",
+                "Assets/AttackonTitans/Eren3.jpg",
+                "Assets/AttackonTitans/Eren4.webp",
+                "Assets/AttackonTitans/Eren5.jpg",
+                "Assets/AttackonTitans/Eren6.jpg",
+                "Assets/AttackonTitans/Eren7.jpg.webp",
+                "Assets/AttackonTitans/Eren8.jpg",
+                "Assets/AttackonTitans/Eren9.jpeg",
+                "Assets/AttackonTitans/Levi1.jpeg",
+                "Assets/AttackonTitans/Levi2.jpg",
+                "Assets/AttackonTitans/Levi3.png",
+                "Assets/AttackonTitans/Erwin1.webp",
+                "Assets/AttackonTitans/Erwin2.webp",
+                "Assets/AttackonTitans/Reiner.png.webp",
+                "Assets/AttackonTitans/Mikasa.jpeg",
+                "Assets/AttackonTitans/Armin.webp",
+                "Assets/AttackonTitans/Hange.png",
+                "Assets/AttackonTitans/Erwin3.jpg",
+                "Assets/AttackonTitans/Erwin4.jpg"
             ],
             "quotes": [
                 "If you think reality is just living comfortably and following your own whims, can you seriously dare to call yourself a soldier?",
@@ -243,17 +243,17 @@
                 "Ryuk"
             ],
             "images": [
-                "Assets/Death Note/Light1.webp",
-                "Assets/Death Note/Amane1.jpg",
-                "Assets/Death Note/Mello.webp",
-                "Assets/Death Note/L1.jpg",
-                "Assets/Death Note/Light2.jpg",
-                "Assets/Death Note/Light3.jpg",
-                "Assets/Death Note/Mikami.webp",
-                "Assets/Death Note/L2.webp",
-                "Assets/Death Note/Amane2.jpeg",
-                "Assets/Death Note/L3.jpg",
-                "Assets/Death Note/Ryuk.webp"
+                "Assets/DeathNote/Light1.webp",
+                "Assets/DeathNote/Amane1.jpg",
+                "Assets/DeathNote/Mello.webp",
+                "Assets/DeathNote/L1.jpg",
+                "Assets/DeathNote/Light2.jpg",
+                "Assets/DeathNote/Light3.jpg",
+                "Assets/DeathNote/Mikami.webp",
+                "Assets/DeathNote/L2.webp",
+                "Assets/DeathNote/Amane2.jpeg",
+                "Assets/DeathNote/L3.jpg",
+                "Assets/DeathNote/Ryuk.webp"
             ],
             "quotes": [
                 "I am the God placed here to save the weak and create a perfect world.",
@@ -291,7 +291,7 @@
         {
             "id": 2,
             "character": "Tanjiro Kamado",
-            "image": "Assets/Demon Slayer/Tanjiro1.png",
+            "image": "Assets/DemonSlayer/Tanjiro1.png",
             "title": "Assets/Naruto/Madara2.png",
             "quotes": [
                 "I swear your big brother will save you no matter what!",
@@ -309,7 +309,7 @@
         {
             "id": 3,
             "character": "Yuji Itadori",
-            "image": "Assets/Jujutsu Kaisen/Itadori.webp",
+            "image": "Assets/JujutsuKaisen/Itadori.webp",
             "title": "Assets/Naruto/Madara2.png",
             "quotes": [
                 "I don't want to regret anything because of the way I lived.",
@@ -324,7 +324,7 @@
         {
             "id": 4,
             "character": "Eren Jaeger",
-            "image": "Assets/Attack on Titans/Eren8.jpg",
+            "image": "Assets/AttackonTitans/Eren8.jpg",
             "title": "Assets/Naruto/Madara2.png",
             "quotes": [
                 "What is the point if those with the means and power do not fight?",
