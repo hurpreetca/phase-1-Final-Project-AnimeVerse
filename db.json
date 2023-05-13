@@ -275,6 +275,7 @@
             "id": 1,
             "character": "Itachi Uchiha",
             "image": "Assets/Naruto/Itachi1.jpg",
+            "titleimage": "Assets/Naruto/Madara2.png",
             "quotes": [
                 "I actually don't think something like perfection exists. That is I think why we are born able to absorb things... and by comparing ourselves with something else we can finally head in a good direction.",
                 "Those who forgive themselves, and are able to accept their true nature... They are the strong ones!",
@@ -291,6 +292,7 @@
             "id": 2,
             "character": "Tanjiro Kamado",
             "image": "Assets/Demon Slayer/Tanjiro1.png",
+            "title": "Assets/Naruto/Madara2.png",
             "quotes": [
                 "I swear your big brother will save you no matter what!",
                 "Use your head not just your spirit. Think think think.",
@@ -308,6 +310,7 @@
             "id": 3,
             "character": "Yuji Itadori",
             "image": "Assets/Jujutsu Kaisen/Itadori.webp",
+            "title": "Assets/Naruto/Madara2.png",
             "quotes": [
                 "I don't want to regret anything because of the way I lived.",
                 "Got it. I won't let Sakuna out.",
@@ -322,6 +325,7 @@
             "id": 4,
             "character": "Eren Jaeger",
             "image": "Assets/Attack on Titans/Eren8.jpg",
+            "title": "Assets/Naruto/Madara2.png",
             "quotes": [
                 "What is the point if those with the means and power do not fight?",
                 "I don't have time to worry if it's right or wrong, you can't hope for a horror story with a happy ending!",
@@ -339,6 +343,7 @@
             "id": 5,
             "character": "Madara Uchiha",
             "image": "Assets/Naruto/Madara2.png",
+            "title": "Assets/Naruto/Madara2.png",
             "quotes": [
                 "Love is not necessary, power is the only true necessity.",
                 "People cannot show each other their true feelings. Fear, suspicion, and resentment never subside.",

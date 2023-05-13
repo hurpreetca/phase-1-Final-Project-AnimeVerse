@@ -1,172 +1,123 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
 
-.examp
-*{
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+
+.examp * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
-.logo{
-  width: 100px;
-  height: 74px;
+.logo {
+  width: 120px;
+  height: 100px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-header
-{
-  height:74px;
+header {
+  height: 100px;
   background-color: #144154;
   border-radius: 15px;
 }
-body{
-    background-color: black;
+body {
+  background-color: black;
 }
 
-.main-div{
-    width: 50%;
-    
+.main-div {
+  width: 50%;
 
-    display: inline-block;
-}
-
-.a{
-    display: block;
+  display: inline-block;
 }
 
-.menu-bar{
-    align-items: center;
-    border-radius: 15px;
-    background: #0A2647 ;
-    text-align: center;
-}
-.menu-bar ul{
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    list-style: none;
-    
-}
-.menu-bar ul li{
-    width: 130px;
-    margin: 15px;
-    padding: 15px;
-}
-.menu-bar ul li a{
-    text-decoration: none;
-    color: white;
-}
-.active, .menu-bar ul li:hover{
-    background:#144272;
-    border-radius: 3px;
+.a {
+  display: block;
 }
 
-.quotes-from-anime, .quotes-from-character{
-    display: none;
+.menu-bar {
+  align-items: center;
+  border-radius: 15px;
+  background: #0a2647;
+  text-align: center;
 }
-.menu-bar ul li:hover .quotes-from-anime, .menu-bar ul li:hover .quotes-from-character
-{
-    display: block;
-    position: absolute;
-    background:  #2C74B3;
-    margin-top: 15px;
-    margin-left: -15px;
+.menu-bar ul {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  list-style: none;
+}
+.menu-bar ul li {
+  width: 130px;
+  margin: 15px;
+  padding: 15px;
+}
+.menu-bar ul li a {
+  text-decoration: none;
+  color: white;
+}
+.active,
+.menu-bar ul li:hover {
+  background: #144272;
+  border-radius: 3px;
+}
 
+.quotes-from-anime,
+.quotes-from-character {
+  display: none;
 }
-.menu-bar ul li:hover .quotes-from-anime ul,.menu-bar ul li:hover .quotes-from-character ul{
-    display: block;
-    width: 250px;
-    margin: 10px;
+.menu-bar ul li:hover .quotes-from-anime,
+.menu-bar ul li:hover .quotes-from-character {
+  display: block;
+  position: absolute;
+  background: #144272;
+  margin-top: 15px;
+  margin-left: -15px;
 }
-.menu-bar ul li:hover .quotes-from-anime ul li, .menu-bar ul li:hover .quotes-from-character ul li{
-    width: 130px;
-    padding: 10px;
-    border-bottom: 1px dotted black;
-    background: transparent;
-    border-radius: 0;
-    text-align: left;
+.menu-bar ul li:hover .quotes-from-anime ul,
+.menu-bar ul li:hover .quotes-from-character ul {
+  display: block;
+  width: 250px;
+  margin: 10px;
+}
+.menu-bar ul li:hover .quotes-from-anime ul li,
+.menu-bar ul li:hover .quotes-from-character ul li {
+  width: 130px;
+  padding: 10px;
+  border-bottom: 1px dotted black;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
 }
 
-.menu-bar ul li:hover .quotes-from-anime ul li a:hover, .menu-bar ul li:hover .quotes-from-character ul li a:hover
-{
-    color: black;
+.menu-bar ul li:hover .quotes-from-anime ul li a:hover,
+.menu-bar ul li:hover .quotes-from-character ul li a:hover {
+  color: black;
 }
 
 .display-div {
-
-
-    background-size: cover;
-    background-position: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-            align-items: center;
-            border-radius: 15px 50px;
-            background-color: rgba(80, 87, 107, 0.5);
-    
-
-  }
-  .display-div p{
-    
-    color: #FAFCFF;
-    font-weight: bold;
-    display: inline-block;
-    justify-content: left;
-    width: 250px;
-    height: 300px;
-  }
-.display-div img{
-    width: 250px;
-    height: 300px;
-    border: 1px solid black;
-    
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px 50px;
+  background-color: rgba(80, 87, 107, 0.3);
 }
-
-
-
-
-/* .display-div {
-    display: flex;
-    align-items: center;
-    justify-content: center
-  }
-  img {
-    max-width: 100%
-  }
-  .image-div{
-    flex-basis: 40%
-  }
-  .p-div{
-    font-size: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-  } */
-
-/* Style the radio buttons as toggle buttons */
-/* .anime-toggle-group label {
-    display: inline-block;
-    background-color: #eee;
-    padding: 12px 24px;
-    border-radius: 20px;
-    cursor: pointer;
-    margin-right: 12px;
-    user-select: none;
-  }
-  
-//Style the selected radio button 
-  .anime-toggle-group input[type="radio"]:checked + span {
-    background-color: #4CAF50;
-    color: white;
-  }
-  
- // Hide the radio buttons
-  .anime-toggle-group input[type="radio"] {
-    display: none;
-  } */
+.display-div p {
+  color: #fafcff;
+  font-weight: bold;
+  display: inline-block;
+  justify-content: left;
+  width: 250px;
+  height: 300px;
+}
+.display-div img {
+  width: 250px;
+  height: 300px;
+  border: 1px solid black;
+}
+/* .display-div img:hover{
+  transform: scale(1.2);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 15px 50px;
+}  */

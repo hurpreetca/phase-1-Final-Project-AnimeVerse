@@ -48,7 +48,8 @@ function renderAnime(animes) {
               img.id = "display-image";
               img.class = "display-img";
               img.addEventListener("mouseenter", (e) => {
-                console.log(e);
+                e.target.classList.add("saturate-div")
+                e.target.style.border = "2px solid var(--dark-grey)"
               });
               img.addEventListener("mouseleave", (e) => {
                 console.log(e);
@@ -87,7 +88,7 @@ function renderCharacter(characters) {
       fetch("http://localhost:3000/characters")
         .then((response) => response.json())
         .then((characters) => {
-          const characterData = characters.find((character) => {
+          characters.find((character) => {
             if (character.character === e.target.textContent) {
               //Generate a Random Number
               const characterName = character.character;
@@ -111,7 +112,13 @@ function renderCharacter(characters) {
               img.id = "display-image";
               img.class = "display-img";
               img.addEventListener("mouseenter", (e) => {
-                console.log(e);
+                fetch("http://localhost:3000/characters")
+                .then((response) => response.json())
+                .then((characters) => {
+                 characters.find((character) => {
+                  console.log(img.src)
+                 })
+                })
               });
               img.addEventListener("mouseleave", (e) => {
                 console.log(e);
