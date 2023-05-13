@@ -20,16 +20,11 @@
 header
 {
   height:74px;
+  background-color: #144154;
+  border-radius: 15px;
 }
 body{
     background-color: black;
-}
-.random{
-    background: none;
-    color: white;
-    border: none;
-    width: 100%;
-    height: 50px;   
 }
 
 .main-div{
@@ -114,13 +109,13 @@ body{
             justify-content: center;
             align-items: center;
             border-radius: 15px 50px;
-            background-color: #B8621B;
+            background-color: rgba(80, 87, 107, 0.5);
     
 
   }
   .display-div p{
     
-    color: #E3CCAE;
+    color: #FAFCFF;
     font-weight: bold;
     display: inline-block;
     justify-content: left;

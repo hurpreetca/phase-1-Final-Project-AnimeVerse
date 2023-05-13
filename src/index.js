@@ -1,16 +1,5 @@
-//Generate a random quote from any anime using the public api
 
-document.addEventListener("DOMContentLoaded", () => {
-  fetch("https://animechan.vercel.app/api/random")
-    .then((response) => response.json())
-    .then(
-      (data) =>
-        (document.getElementById("randomQuote").value =
-          data.quote + " -" + data.character)
-    );
-});
-
-//Generate a random quote from a particular anime
+//Generate a random quote from a Given list of animes
 
 // 1. Create ul representing names of animes
 
