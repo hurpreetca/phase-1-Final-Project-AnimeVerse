@@ -49,15 +49,15 @@ function renderAnime(animes) {
               const displayDiv = document.querySelector(".display-div");
               displayDiv.replaceChildren();
               const p = document.createElement("p");
-              p.textContent = anime.quotes[randomIndex];
+              p.textContent = anime.quotes[randomIndex]+ " - "+anime.characters[randomIndex];
               p.id = "display-quote";
               p.class = "display-p";
               displayDiv.appendChild(p);
              
               const img = document.createElement("img");
               img.src = anime.images[randomIndex];
-              /* img.id = "display-image";
-              img.class = "display-img"; */
+              img.id = "display-image";
+              img.class = "display-img";
               img.addEventListener("mouseenter", (e) => {
                 console.log(e);
               });
@@ -119,8 +119,8 @@ function renderCharacter(characters) {
               displayDiv.appendChild(p);
               const img = document.createElement("img");
               img.src = character.image;
-              /* img.id = "display-image";
-              img.class = "display-img"; */
+              img.id = "display-image";
+              img.class = "display-img";
               img.addEventListener("mouseenter", (e) => {
                 console.log(e);
               });
