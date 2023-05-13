@@ -119,7 +119,6 @@ function renderCharacter(characters) {
                   console.log(character.title)
                  if(`http://127.0.0.1:5501/${character.image}`=== img.src)
                  {
-                   img.replaceChild()
                   //  img.src= character.title
                  }
                  })
