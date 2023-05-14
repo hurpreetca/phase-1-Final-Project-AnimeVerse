@@ -87,10 +87,10 @@
                 "Assets/DemonSlayer/Giyu1.webp",
                 "Assets/DemonSlayer/Giyu2.webp",
                 "Assets/DemonSlayer/Rengoku.jpg",
-                "Assets/DemonSlayer/Tanjiro1.png",
-                "Assets/DemonSlayer/Tanjiro2.jpg",
-                "Assets/DemonSlayer/Tanjiro3.jpeg",
-                "Assets/DemonSlayer/Tanjiro4.jpg",
+                "Assets/DemonSlayer/Tanjiro1.webp",
+                "Assets/DemonSlayer/Tanjiro2.webp",
+                "Assets/DemonSlayer/Tanjiro3.webp",
+                "Assets/DemonSlayer/Tanjiro4.webp",
                 "Assets/DemonSlayer/Zenitsu.jpg",
                 "Assets/DemonSlayer/Muzan.webp",
                 "Assets/DemonSlayer/Inosuke.jpg.webp"
@@ -128,18 +128,18 @@
                 "Nobara Kugisaki"
             ],
             "images": [
-                "Assets/JujutsKaisen/wasuke.webp",
-                "Assets/JujutsKaisen/wasuke.webp",
-                "Assets/JujutsKaisen/sukuna1.webp",
-                "Assets/JujutsKaisen/sukuna2.jpg",
-                "Assets/JujutsKaisen/sukuna3.jpg",
-                "Assets/JujutsKaisen/sukuna4.png",
-                "Assets/JujutsKaisen/Itadori.webp",
-                "Assets/JujutsKaisen/gojo1.webp",
-                "Assets/JujutsKaisen/gojo2.png",
-                "Assets/JujutsKaisen/todo.jpg",
-                "Assets/JujutsKaisen/megumi.webp",
-                "Assets/JujutsKaisen/kugisaki.webp"
+                "Assets/JujutsuKaisen/wasuke.webp",
+                "Assets/JujutsuKaisen/wasuke.webp",
+                "Assets/JujutsuKaisen/sukuna1.webp",
+                "Assets/JujutsuKaisen/sukuna2.jpg",
+                "Assets/JujutsuKaisen/sukuna3.jpg",
+                "Assets/JujutsuKaisen/sukuna4.png",
+                "Assets/JujutsuKaisen/Itadori.webp",
+                "Assets/JujutsuKaisen/gojo1.webp",
+                "Assets/JujutsuKaisen/gojo2.png",
+                "Assets/JujutsuKaisen/todo.jpg",
+                "Assets/JujutsuKaisen/megumi.webp",
+                "Assets/JujutsuKaisen/kugisaki.webp"
             ],
             "quotes": [
                 "It doesn't have to be everyone, just help the people around you, as much as you can. Wasuke Itadori",
@@ -291,7 +291,7 @@
         {
             "id": 2,
             "character": "Tanjiro Kamado",
-            "image": "Assets/DemonSlayer/Tanjiro1.png",
+            "image": "Assets/DemonSlayer/Tanjiro2.webp",
             "titleimage": "Assets/Naruto/Madara2.png",
             "quotes": [
                 "I swear your big brother will save you no matter what!",

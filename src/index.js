@@ -48,8 +48,7 @@ function renderAnime(animes) {
               img.id = "display-image";
               img.class = "display-img";
               img.addEventListener("mouseenter", (e) => {
-                e.target.classList.add("saturate-div")
-                e.target.style.border = "2px solid var(--dark-grey)"
+               console.log(e)
               });
               img.addEventListener("mouseleave", (e) => {
                 console.log(e);
@@ -119,14 +118,25 @@ function renderCharacter(characters) {
                   
                    if("http://127.0.0.1:5501/"+character.image=== img.src)
                  {
-                  //console.log(character.titleimage)
+                  
                   document.getElementById("display-image").src= character.titleimage
                  } 
                  })
                 })
               });
               img.addEventListener("mouseleave", (e) => {
-                console.log(e);
+                fetch("http://localhost:3000/characters")
+                .then((response) => response.json())
+                .then((characters) => {
+                 characters.find((character) => {
+                  
+                   if("http://127.0.0.1:5501/"+character.titleimage=== img.src)
+                 {
+                 
+                  document.getElementById("display-image").src= character.image
+                 } 
+                 })
+                })
               });
               displayDiv.appendChild(img);
             }
