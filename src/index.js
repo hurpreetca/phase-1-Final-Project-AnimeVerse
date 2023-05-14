@@ -116,11 +116,12 @@ function renderCharacter(characters) {
                 .then((response) => response.json())
                 .then((characters) => {
                  characters.find((character) => {
-                  console.log(character.title)
-                 if(`http://127.0.0.1:5501/${character.image}`=== img.src)
+                  
+                   if("http://127.0.0.1:5501/"+character.image=== img.src)
                  {
-                  //  img.src= character.title
-                 }
+                  //console.log(character.titleimage)
+                  document.getElementById("display-image").src= character.titleimage
+                 } 
                  })
                 })
               });

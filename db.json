@@ -292,7 +292,7 @@
             "id": 2,
             "character": "Tanjiro Kamado",
             "image": "Assets/DemonSlayer/Tanjiro1.png",
-            "title": "Assets/Naruto/Madara2.png",
+            "titleimage": "Assets/Naruto/Madara2.png",
             "quotes": [
                 "I swear your big brother will save you no matter what!",
                 "Use your head not just your spirit. Think think think.",
@@ -310,7 +310,7 @@
             "id": 3,
             "character": "Yuji Itadori",
             "image": "Assets/JujutsuKaisen/Itadori.webp",
-            "title": "Assets/Naruto/Madara2.png",
+            "titleimage": "Assets/Naruto/Madara2.png",
             "quotes": [
                 "I don't want to regret anything because of the way I lived.",
                 "Got it. I won't let Sakuna out.",
@@ -324,8 +324,8 @@
         {
             "id": 4,
             "character": "Eren Jaeger",
-            "image": "Assets/Attackon`Titans/Eren8.jpg",
-            "title": "Assets/Naruto/Madara2.png",
+            "image": "Assets/AttackonTitans/Eren8.jpg",
+            "titleimage": "Assets/Naruto/Madara2.png",
             "quotes": [
                 "What is the point if those with the means and power do not fight?",
                 "I don't have time to worry if it's right or wrong, you can't hope for a horror story with a happy ending!",
@@ -343,7 +343,7 @@
             "id": 5,
             "character": "Madara Uchiha",
             "image": "Assets/Naruto/Madara2.png",
-            "title": "Assets/Naruto/Madara2.png",
+            "titleimage": "Assets/Naruto/Madara2.png",
             "quotes": [
                 "Love is not necessary, power is the only true necessity.",
                 "People cannot show each other their true feelings. Fear, suspicion, and resentment never subside.",
