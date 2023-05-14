@@ -125,8 +125,9 @@ body {
   margin-top: 32px;
   padding: 8px;
 }
-/* .display-div img:hover{
+.display-div img:hover{
+  
   transform: scale(1.2);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-  border-radius: 15px 50px;
-}  */
+  border-radius: 15px 50px; 
+}

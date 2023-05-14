@@ -47,12 +47,12 @@ function renderAnime(animes) {
               img.src = anime.images[randomIndex];
               img.id = "display-image";
               img.class = "display-img";
-              img.addEventListener("mouseenter", (e) => {
+             /*  img.addEventListener("mouseenter", (e) => {
                console.log(e)
               });
               img.addEventListener("mouseleave", (e) => {
                 console.log(e);
-              });
+              }); */
               displayDiv.appendChild(img);
             }
           });
