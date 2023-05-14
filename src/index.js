@@ -1,4 +1,3 @@
-
 //Generate a random quote from a Given list of animes
 
 // 1. Create ul representing names of animes
@@ -23,36 +22,29 @@ function renderAnime(animes) {
             if (anime.anime === e.target.textContent) {
               //Generate a Random Number
               const animeName = anime.anime;
-              //console.log(animeName)
               const animeObj = animes.find(
                 (anime) => anime.anime === animeName
               );
               const charactersArr = animeObj.characters;
               const charactersLength = charactersArr.length;
-
-              //console.log(charactersLength);
               const randomIndex = Math.floor(Math.random() * charactersLength);
-              //console.log(randomIndex)
 
               //Select display-div using Navigation Bar "Anime"
               const displayDiv = document.querySelector(".display-div");
               displayDiv.replaceChildren();
               const p = document.createElement("p");
-              p.textContent = anime.quotes[randomIndex]+ "  -  "+anime.characters[randomIndex];
+              p.textContent =
+                anime.quotes[randomIndex] +
+                "  -  " +
+                anime.characters[randomIndex];
               p.id = "display-quote";
               p.class = "display-p";
               displayDiv.appendChild(p);
-             
+
               const img = document.createElement("img");
               img.src = anime.images[randomIndex];
               img.id = "display-image";
               img.class = "display-img";
-             /*  img.addEventListener("mouseenter", (e) => {
-               console.log(e)
-              });
-              img.addEventListener("mouseleave", (e) => {
-                console.log(e);
-              }); */
               displayDiv.appendChild(img);
             }
           });
@@ -102,7 +94,8 @@ function renderCharacter(characters) {
               const displayDiv = document.querySelector(".display-div");
               displayDiv.replaceChildren();
               const p = document.createElement("p");
-              p.textContent = character.quotes[randomIndex]+"  -  "+character.character;
+              p.textContent =
+                character.quotes[randomIndex] + "  -  " + character.character;
               p.id = "display-quote";
               p.class = "display-p";
               displayDiv.appendChild(p);
@@ -110,33 +103,39 @@ function renderCharacter(characters) {
               img.src = character.image;
               img.id = "display-image";
               img.class = "display-img";
+
+              // MOUSEENTER event listener is added to the image in display-div which will change the image to a new one
+
               img.addEventListener("mouseenter", (e) => {
                 fetch("http://localhost:3000/characters")
-                .then((response) => response.json())
-                .then((characters) => {
-                 characters.find((character) => {
-                  
-                   if("http://127.0.0.1:5501/"+character.image=== img.src)
-                 {
-                  
-                  document.getElementById("display-image").src= character.titleimage
-                 } 
-                 })
-                })
+                  .then((response) => response.json())
+                  .then((characters) => {
+                    characters.find((character) => {
+                      if (
+                        "http://127.0.0.1:5501/" + character.image ===
+                        img.src
+                      ) {
+                        document.getElementById("display-image").src =
+                          character.titleimage;
+                      }
+                    });
+                  });
               });
+              // MOUSELEAVE event listener is added to the img which will switch back the image to original as before
               img.addEventListener("mouseleave", (e) => {
                 fetch("http://localhost:3000/characters")
-                .then((response) => response.json())
-                .then((characters) => {
-                 characters.find((character) => {
-                  
-                   if("http://127.0.0.1:5501/"+character.titleimage=== img.src)
-                 {
-                 
-                  document.getElementById("display-image").src= character.image
-                 } 
-                 })
-                })
+                  .then((response) => response.json())
+                  .then((characters) => {
+                    characters.find((character) => {
+                      if (
+                        "http://127.0.0.1:5501/" + character.titleimage ===
+                        img.src
+                      ) {
+                        document.getElementById("display-image").src =
+                          character.image;
+                      }
+                    });
+                  });
               });
               displayDiv.appendChild(img);
             }
